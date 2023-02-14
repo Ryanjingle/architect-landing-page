@@ -1,0 +1,49 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-image: url(images/hero.jpeg);
+    height: 800px;
+}
+
+/* Nav Bar Below */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 50px;
+    box-shadow: 0 0 5px 0 rgb(43, 42, 42);
+}
+
+.links {
+    width: 350px;
+    word-spacing: 40px;
+
+}
+
+.logo {
+    flex: 1;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'lato';
+    font-weight: 300;
+    color: black;
+}
+
+h1 {
+    font-size: 22px;
+    font-family: 'lato';
+    font-weight: 300;
+}
+
+#br {
+    font-weight: 700;
+    padding-right: 10px;
+}
