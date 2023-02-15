@@ -5,7 +5,7 @@ body {
 
 header {
     background-image: url(images/hero.jpeg);
-    height: 800px;
+    height: 750px;
 }
 
 /* Nav Bar Below */
@@ -47,3 +47,30 @@ h1 {
     font-weight: 700;
     padding-right: 10px;
 }
+
+/* Hero Below */
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 320px 0 0 0;
+}
+
+h2 {
+    font-size: 38px;
+    font-family: 'lato';
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#header {
+    margin-right: 10px;
+    background: rgba(15, 17, 19, 0.8);
+    padding: 5px 15px;
+    font-weight: 700;
+}
+
+/* Sub Hero Section */
+
