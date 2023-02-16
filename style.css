@@ -21,7 +21,6 @@ header {
 .links {
     width: 350px;
     word-spacing: 40px;
-
 }
 
 .logo {
@@ -72,17 +71,17 @@ h2 {
     font-weight: 700;
 }
 
-/* Sub Hero Section - Projects and Layout */
+/* Project Section and Layout */
 
 .project-container {
     max-width: 98%;
+    min-width: 98%;
 }
 
 .projects {
     margin: 60px 0 60px 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    font-weight:lighter;
     border-bottom: 1px rgba(84, 78, 78, 0.2) solid;
 }
 
@@ -120,5 +119,64 @@ img {
     padding: 10px;
     margin: -10px 0 0 -10px;
 }
+
+/* About Section */ 
+
+.grey {
+    filter: grayscale(70%);
+}
+
+.about-container {
+    max-width: 98%;
+}
+
+.about {
+    margin: 60px 0 20px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px rgba(84, 78, 78, 0.2) solid;
+}
+
+.about-text {
+    margin-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.people-container {
+    margin: 40px 0 0 25px;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.title {
+    color: gray;
+    margin: 20px 0;
+}
+
+.summary {
+    line-height: 1.5;
+}
+
+.btn-contact {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width:300px;
+    border: none;
+    font-size: 16px;
+}
+
+.btn-contact:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.234);
+}
+
+/* Contact Section */
 
 
